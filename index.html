@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Formulário</title>
+</head>
+
+<body>
+</fieldset>
+    <form name="genero" method="get" action="script.php">
+        <fieldset>
+            <legend><h2> Dados Pessoais</h2></legend>
+        <div>        
+       
+            <label for="nome">Nome Completo</label><br>
+            <input type="text" placeholder="Digite seu nome completo" name="usuario_nome" required />
+        </div>          
+        <br><br>        
+             <div>
+            <form name="genero" method="get" action="page.php" >
+            <label>Gênero</label><br>            
+                <input type="radio" id="sexo1" name="sexo" value="Feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="sexo2" name="sexo" value="Masculino">
+                <label for="masculino" > Masculino</label>
+                <input type="radio" id="sexo3" name="sexo" value="Outro">
+                <label for="outros">Outros</label> 
+                <input type="radio" id="sexo4" name="sexo" value="ND">
+              <label for="nd" >Prefiro não responder</label>
+              </form>
+            </div><br><br>  
+        <div>
+            <label for="nascimento">Data de Nascimento</label><br>
+            <input type="date" name="usuario_nascimento" />
+        </div><br><br>
+        <div>
+            <label for="email"> E-mail </label><br>
+            <input type="email" placeholder="Digite seu e-mail" name="email" required />
+        </div><br><br>
+       
+        <div>
+            <label for="url">Site</label><br>
+            <input type="url" id="pagina"  placeholder="Digite seu site" name="usuario_url">
+        </div>
+        <div><br><br>
+            <label for="endereco"> Endereço (Rua, número e complemento)</label><br>
+            <input type="endereco" placeholder="Digite seu endereço completo" name="usuario_endereco" required><br>
+        </div><br><br>
+        <div>
+            <form name="genero" method="get" action="page.php" >
+                <label>Cidade</label><br>            
+                    <input type="radio" id="cidade1" name="cidade" value="Alvorada">
+                    <label for="alvorada">Alvorada</label>
+                    <input type="radio" id="cidade2" name="cidade" value="Canoas">
+                    <label for="canoas" >Canoas</label>
+                    <input type="radio" id="cidade3" name="cidade" value="Esteio">
+                    <label for="esteio">Esteio</label> 
+                    <input type="radio" id="cidade4" name="cidade" value="Gravataí">
+                  <label for="gravataí" >Gravataí</label>
+                  <input type="radio" id="cidade5" name="cidade" value="Novo Hamburgo">
+                  <label for="novo hamburgo">Novo Hamburgo </label>
+                  <input type="radio" id="cidade6" name="cidade" value="Passo Fundo">
+                  <label for="passo fundo">Passo Fundo</label>
+                  <input type="radio" id="cidade7" name="cidade" value="Passo Fundo">
+                  <label for="passo fundo">Pelotas</label>
+                  <input type="radio" id="cidade8" name="cidade" value="Porto Alegre">
+                  <label for="porto alegre">Porto Alegre</label>
+                  <input type="radio" id="cidade9" name="cidade" value="São Leopoldo">
+                  <label for="São Leopoldo">São Leopoldo</label>                
+                  </form>
+        </div><br><br>
+        <div>
+            <label for="telefone">Telefone</label><br>
+            <input type="telefone" placeholder="Digite o número do seu telefone" name="usuario_telefone">
+        </div> <br><br>        
+    </fieldset>
+<fieldset>
+    <legend><h2> Área dos Dados Profissionais</h2></legend>
+    <div>   
+            <label for="atuacao">Áreas de Atuação </label><br>
+            <form name="genero" method="get" action="page.php" >
+                <label>Cidade</label><br>            
+                    <input type="checkbox" id="profissao1" name="profissao" value="Design">
+                    <label for="design">Design</label>
+                    <input type="checkbox" id="profissao2" name="profissao" value="Desenvolvimento Front-end">
+                    <label for="desenvolvimento front-end" >Desenvolvimento Front-end</label>
+                    <input type="checkbox" id="profissao3" name="profissao" value="Desenvolvimento Back-end">
+                    <label for="desenvolvimento back-end">Desenvolvimento Back-end</label> 
+                    <input type="checkbox" id="profissao4" name="profissao" value="Engenharia de Software">
+                    <label for="Engenharia de  Software">Engenharia de Software</label>
+                    <input type="checkbox" id="profissao5" name="profissao" value="Análise de Testes">
+                    <label for="análise de testes">Análise de Testes</label>
+                    <input type="checkbox" id="profissao6" name="profissao" value="Banco de Dados">
+                    <label for="banco de dados">Banco de Dados</label>
+                    <input type="checkbox" id="profissao7" name="profissao" value="Análise de Negócios">
+                    <label for="analise de negocios">Análise de Negócios</label>
+                    <input type="checkbox" id="profissao8" name="profissao" value="Manutenção">
+                    <label for="manutenção">Manutenção</label>
+                              
+                  </form>
+        </div><br><br>
+        <div>
+          
+            
+        <form action="page.php" method="get">
+            <label for="browser">Formação:</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+            <option value="Ensino Fundamental">
+            <option value="Ensino Médio">
+            <option value="Ensino Superior">
+            <option value="Especialização">
+            <option value="Mestrado">
+                <option value="Doutorado">
+            </datalist>
+        </form> 
+        </div><br><br>
+        <div>
+            <label for="profissional">Breve Histórico Profissional</label><br>
+                <textarea  name="comentario"></textarea>
+        </div><br><br>
+        <div>
+        
+            <form action="/action_page.php">
+                <label for="arquivos">Upload do Currículo Vitae</label><br>
+                <input type="file" id="arquivo" name="arquivos" multiple><br><br>
+              </form>
+        </div><br><br>
+        <div>
+           
+            <form name="genero" method="get" action="page.php" >
+                <label for="horas">Disponibilidade de Horas Semanais</label><br> <br>         
+                    <input type="radio" id="hora1" name="hora" value="Hora">
+                    <label for="hora">10h</label>
+                    <input type="radio" id="hora2" name="hora" value="Hora">
+                    <label for="hora" >20h</label>
+                    <input type="radio" id="hora3" name="hora" value="Hora">
+                  <label for="hora" >30h</label>
+                    <input type="radio" id="hora4" name="hora" value="Hora">
+                  <label for="hora" >40h</label>
+                   
+                               
+                  </form>     
+        </div><br><br>
+    </fieldset>
+<fieldset>
+    <legend><h2> Agendamento da Entrevista</h2></legend>
+        <div>       
+            <label for="data">Data </label><br>
+            <input type="date" name="usuario_data" required>
+        </div><br><br>
+        <div>
+            <label for="hora">Horário</label><br>
+            <input type="time" name="usuario_hora" id="hora">
+        </div><br><br>       
+        <div class="button">
+            <button type="submit">Enviar</button>
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>

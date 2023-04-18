@@ -1,0 +1,17 @@
+body{ 
+  background: #a9a9a9;
+}
+fieldset{
+  border:solid 2px #d34343 ;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.button{
+  text-align: center   ;
+  border-radius: 5px;
+
+}
