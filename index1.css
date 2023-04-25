@@ -1,0 +1,38 @@
+body{ 
+  background:#D8BFD8;
+}
+.titulo{
+   text-align:center;
+  font-family: Arial, sans-serif,Helvetica,Verdana,Times, Times New Roman;
+}
+.picture__input{ 
+  display: nome;
+}
+.picture{
+width: 300px;
+aspect-ratio: 16/9;
+background: #D3D3D3;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #F4A460;
+border: 3px dashed;
+margin-left: 500px;
+margin-top: -20px;
+font-family: Arial;
+}
+fieldset{
+  text-align:left;
+  font-family: Arial, sans-serif,Helvetica,Verdana,Times, Times New Roman;
+  font-size: 20px;
+  border:solid 3px #F4A460 ;
+  margin-left: 300px;
+  margin-right: 200px;
+  margin-bottom: 10px;
+
+}
+
+.button{
+  border-radius: 8px;
+
+}
