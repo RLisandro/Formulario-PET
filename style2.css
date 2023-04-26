@@ -1,13 +1,14 @@
-/* Estilo do Input file para upload de imagens */
+/* Style do Input file para upload de imagens */
 #picture__input {
   display: none;
 }
-
 .picture {
-  width: 400px;
   aspect-ratio: 16/9;
   background: #ddd;
-  display: flex;
+  width: 200px;
+  margin-left: 650px;
+  margin-top: 50px;
+  float: right;
   align-items: center;
   justify-content: center;
   color: #aaa;
@@ -39,4 +40,3 @@
 .picture__img {
   max-width: 100%;
 }
-

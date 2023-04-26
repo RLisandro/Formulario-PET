@@ -1,0 +1,27 @@
+/*  Style botões e barra de cadastro*/
+.teste {
+  flex-direction: row;
+  height: 20px;
+  width: 20px;
+  margin: 0 50px;
+}
+.teste1 {
+  flex-direction: row;
+  height: 50px;
+  width: 100px;
+  margin: 0 50px;
+  background: #ff7f50;
+}
+.teste2 {
+  font-family: Arial, sans-serif, Helvetica, Verdana, Times;
+  text-align: left;
+  background: #ff7f50;
+  width: 300px;
+  height: 1230px;
+  padding: 10px;
+  float: left;
+}
+ a{
+  text-decoration: none;
+}
+
